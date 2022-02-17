@@ -1,0 +1,128 @@
+/*
+    === General Styles ===
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*
+    === Alert Styles ===
+*/
+
+.alert {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    width: 400px;
+    height: 80px;
+    margin: 125px auto;
+    transition: .4s;
+}
+
+.alert .alert-icon {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.alert .alert-content {
+    margin-left: 15px;
+}
+
+.alert .alert-content h3 {
+    font-size: 20px;
+    font-weight: 700px;
+    margin-top: -6px;
+}
+
+.alert .alert-content p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.alert .alert-close {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    font-size: 24px;
+}
+
+/*
+    === Alerts Color Classes ===
+*/
+
+.alert-success {
+    background: #d1e7dd;
+    border-left: 6px solid #0f5132;
+}
+
+.alert-success .alert-icon {
+    color: #d1e7dd;
+    background: #0f5132;
+}
+
+.alert-success .alert-content h3,
+.alert-success .alert-content p,
+.alert-success .alert-close {
+    color: #0f5132;
+}
+
+.alert-danger {
+    background: #f8d7da;
+    border-left: 6px solid #842029;
+}
+
+.alert-danger .alert-icon {
+    color: #f8d7da;
+    background: #842029;
+}
+
+.alert-danger .alert-content h3,
+.alert-danger .alert-content p,
+.alert-danger .alert-close {
+    color: #842029;
+}
+
+.alert-warning {
+    background: #fff3cd;
+    border-left: 6px solid #664d03;
+}
+
+.alert-warning .alert-icon {
+    color: #fff3cd;
+    background: #664d03;
+}
+
+.alert-warning .alert-content h3,
+.alert-warning .alert-content p,
+.alert-warning .alert-close {
+    color: #664d03;
+}
+
+.alert-info {
+    background: #cfe2ff;
+    border-left: 6px solid #084298;
+}
+
+.alert-info .alert-icon {
+    color: #cfe2ff;
+    background: #084298;
+}
+
+.alert-info .alert-content h3,
+.alert-info .alert-content p,
+.alert-info .alert-close {
+    color: #084298;
+}
